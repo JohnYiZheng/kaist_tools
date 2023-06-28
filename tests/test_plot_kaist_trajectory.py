@@ -7,7 +7,7 @@ sys.path.append(project_dir)
 from kaist_tools.trajectory import Trajectory
 from utilities.logger import define_logger
 
-import plotter3d
+import kaist_tools.plotter3d as plotter3d
 
 LOGGER = define_logger(__name__)
 
