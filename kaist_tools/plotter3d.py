@@ -32,11 +32,3 @@ class Plotter3d:
     def show(self):
         plt.show()
 
-plotter = Plotter3d()
-
-xs = np.linspace(0, 1, 100)
-ys = np.sin(xs * 2 * np.pi) / 2 + 0.5
-zs = np.zeros(len(xs))
-
-plotter.plot_line(xs, ys, zs)
-plotter.show()

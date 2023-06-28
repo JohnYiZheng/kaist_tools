@@ -1,10 +1,4 @@
 import os
-import sys
-
-# directory reach
-directory = os.path.dirname(os.path.abspath("__file__"))
-sys.path.append(os.path.dirname(os.path.dirname(directory)))
-
 import numpy as np
 import pandas as pd
 
