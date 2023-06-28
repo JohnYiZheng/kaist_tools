@@ -4,3 +4,4 @@ tranformations
 pytransform3d
 matplotlib
 pyyaml
+scipy
